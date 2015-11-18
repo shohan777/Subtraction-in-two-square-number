@@ -12,5 +12,5 @@
 
     $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 
-    echo "<br>".$time;
+    echo "<br> Time spend: ".$time;
  ?>

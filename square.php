@@ -15,9 +15,9 @@
         echo "Your given number is false";
     }
 
-$time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
+    $time = microtime(true) - $_SERVER["REQUEST_TIME_FLOAT"];
 
-echo "<br>".$time;
+    echo "<br> Time spend: ".$time;
 
 
 ?>
